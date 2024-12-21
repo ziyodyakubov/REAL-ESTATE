@@ -1,0 +1,21 @@
+import HeroOne from "./hero-one.png";
+import RentOne from "./rent-one.png";
+import RentTwo from "./rent-two.png";
+import SaleOne from "./sale-one.png";
+import SaleTwo from "./sale-two.png";
+import SaleThree from "./sale-three.png";
+import SaleFour from "./sale-four.png";
+import HeroThree from "./HeroThree.png";
+import HeroFour from "./hero-four.png";
+import SaleOneLittle from "./sale-one-l.png";
+import SaleTwoLittle from "./sale-two-l.png";
+import SaleThreeLittle from "./sale-three-l.png";
+import RentOneLittle from "./rent-one-l.png";
+import NewYork from "./newyork.png";
+import Boston from "./boston.png";
+import Chicago from "./chicago.png";
+import Washington from "./washington.png";
+import Miami from "./miami.png";
+import HeroTwo from "./HeroTwo.png";
+
+export {HeroOne,RentOne,RentTwo,SaleOne,SaleTwo,SaleThree,SaleFour,HeroThree,HeroFour,SaleOneLittle,SaleTwoLittle,SaleThreeLittle,RentOneLittle,NewYork,Boston,Chicago,Washington,Miami,HeroTwo};
