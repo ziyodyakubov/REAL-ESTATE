@@ -23,7 +23,7 @@ const Index = () => {
                     <div className="flex gap-[24px] items-end">
                         <div className="first-div flex items-center gap-[8px]">
                             <box-icon name="user-circle"></box-icon>
-                            <h2 className="text-[16px] font-[500] cursor-pointer">Login</h2>
+                            <h2 className="text-[16px] font-[500] cursor-pointer"><Link href="/house">Login</Link></h2>
                         </div>
 
                         <div className="first-div flex items-center gap-[8px]">

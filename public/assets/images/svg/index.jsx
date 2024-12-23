@@ -22,5 +22,15 @@ import IconTwo from "./icon-2.svg";
 import IconThree from "./icon-3.svg";
 import IconFour from "./icon-4.svg";
 import IconFive from "./icon-5.svg";
+import AvaGet from "./ava-get.svg";
+import TotalArea from "./total-area.svg";
+import Bedrooms from "./bedrooms.svg";
+import Bathrooms from "./bathrooms.svg";
+import Floor from "./floor.svg";
+import Construction from "./construction.svg";
+import Elevator from "./elevator.svg";
+import Parking from "./parking.svg";
+import WiFi from "./wifi.svg";
+import Tv from "./tv.svg";
 
-export {Logo,Ava,PhoneIcon,Filter,Instagram,Facebook,Twitter,Telegram,Bathroom,Bedroom,Area,Garage,Apartment,Homes,HomeHeart,Zavod, HomeGroup,HomeGroup2,BankGroup,IconOne,IconTwo,IconThree,IconFour,IconFive}
+export {Logo,Ava,PhoneIcon,Filter,Instagram,Facebook,Twitter,Telegram,Bathroom,Bedroom,Area,Garage,Apartment,Homes,HomeHeart,Zavod, HomeGroup,HomeGroup2,BankGroup,IconOne,IconTwo,IconThree,IconFour,IconFive, AvaGet, TotalArea,Bedrooms,Bathrooms,Floor,Construction,Elevator,Parking,WiFi,Tv}

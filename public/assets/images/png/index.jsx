@@ -31,6 +31,8 @@ import HeyThree from "./hey-3.png";
 import HeyFour from "./hey-4.png";
 import HeyFive from "./hey-5.png";
 import HeySix from "./hey-6.png";
+import HouseOne from "./house-1.png";
+import HouseTwo from "./house-2.png";
 
 
-export {HeroOne,RentOne,RentTwo,SaleOne,SaleTwo,SaleThree,SaleFour,HeroThree,HeroFour,SaleOneLittle,SaleTwoLittle,SaleThreeLittle,RentOneLittle,NewYork,Boston,Chicago,Washington,Miami,HeroTwo,AboutHero,Expert, Discover, PersonOne, PersonTwo, PersonThree, PersonFour, Real, HeyOne, HeyTwo, HeyThree, HeyFour, HeyFive, HeySix};
+export {HeroOne,RentOne,RentTwo,SaleOne,SaleTwo,SaleThree,SaleFour,HeroThree,HeroFour,SaleOneLittle,SaleTwoLittle,SaleThreeLittle,RentOneLittle,NewYork,Boston,Chicago,Washington,Miami,HeroTwo,AboutHero,Expert, Discover, PersonOne, PersonTwo, PersonThree, PersonFour, Real, HeyOne, HeyTwo, HeyThree, HeyFour, HeyFive, HeySix, HouseOne, HouseTwo};
