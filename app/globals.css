@@ -43,6 +43,64 @@ html,body{
 
 }
 
+
+
+/* #section-1-2 {
+  background-image: url('/assets/images/png/contact-back.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: scaleX(-1);
+  color: #000;
+} */
+
+#section-1-2{
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+#section-1-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/images/png/contact-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+
+#section-4-2{
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#section-4-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/images/png/discover-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+
 #section-6 {
   position: relative;
   width: 100vw;
