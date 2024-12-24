@@ -10,8 +10,8 @@ const Index = () => {
             {/* FOOTER SECTION STARTED */}
             <footer className="bg-[#100E2C] text-[#fff]">
                 <div className="container">
-                    <div className="py-[60px] border-b-[1px] border-b-[#ffffffb8]">
-                        <ul className="flex items-start gap-[104px]">
+                    <div className="py-[60px] sm:py-[40px] border-b-[1px] border-b-[#ffffffb8]">
+                        <ul className="flex sm:flex-col sm:px-[20px] sm:gap-[60px] items-start gap-[104px]">
                             <li className="flex flex-col gap-[24px]">
                                 <a className="pb-[8px] text-[20px] font-[600]" href="">Opening hours</a>
 
@@ -60,10 +60,10 @@ const Index = () => {
                         </ul>
                     </div>
 
-                    <div className="py-[20px] flex items-center justify-between">
-                        <p className="text-[#ffffffb8]">©Copyright Real Estate 2023. Design by Figma.guru</p>
+                    <div className="py-[20px] sm: flex items-center sm:gap-[10px] sm:justify-start justify-between">
+                        <p className="text-[#ffffffb8] sm:text-[10px] sm:px-[20px]">©Copyright Real Estate 2023. Design by Figma.guru</p>
 
-                        <div className="flex items-center gap-[12px]">
+                        <div className="flex items-center sm:gap-[5px] gap-[12px]">
                             <Image className="cursor-pointer" src={Facebook} alt="facebook"/>
                             <Image className="cursor-pointer" src={Twitter} alt="twitter"/>
                             <Image className="cursor-pointer" src={Instagram} alt="instagram"/>

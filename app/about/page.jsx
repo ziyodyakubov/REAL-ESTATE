@@ -33,51 +33,51 @@ export default function Home() {
     return (
         <>
             {/* SECTION-1 STARTED */}
-            <section id="section-1" className="pb-[120px]">
+            <section id="section-1" className="pb-[120px] sm:pb-[30px] sm:px-[20px]">
                 <div className="container">
-                    <div className="">
+                    <div>
                         <Image src={AboutHero} alt="AboutHero" />
 
-                        <div className="shadow-lg rounded-b-[12px] p-[20px]">
-                            <div className="flex items-center gap-[95px]">
-                                <div className="p-[40px] flex flex-col gap-[14px] items-center">
-                                    <Image src={HomeHeart} alt="home heart" />
+                        <div className="shadow-lg rounded-b-[12px] sm:p-[0px] p-[20px]">
+                            <div className="flex  sm:flex-col sm:gap-[0px] gap-[95px]">
+                                <div className="p-[40px] flex flex-col sm:gap-[4px] gap-[14px] items-center">
+                                    <Image className="sm:w-[20px]" src={HomeHeart} alt="home heart" />
 
-                                    <h1 className="text-[50px] text-[#100E2C] font-[700]">
+                                    <h1 className="text-[50px] sm:text-[18px] text-[#100E2C] font-[700]">
                                         1250
                                     </h1>
 
-                                    <h3 className="text-[24px] text-[#100E2C] font-[500]">
+                                    <h3 className="text-[24px] sm:text-[12px] text-[#100E2C] font-[500]">
                                         Properties sold
                                     </h3>
                                 </div>
 
-                                <div className="p-[40px] flex flex-col gap-[14px] items-center">
-                                    <Image src={Apartment} alt="Apartment" />
+                                <div className="p-[40px] flex flex-col sm:gap-[4px] gap-[14px] items-center">
+                                    <Image className="sm:w-[20px]" src={Apartment} alt="Apartment" />
 
-                                    <h1 className="text-[50px] text-[#100E2C] font-[700]">320</h1>
+                                    <h1 className="text-[50px] sm:text-[18px] text-[#100E2C] font-[700]">320</h1>
 
-                                    <h3 className="text-[24px] text-[#100E2C] font-[500]">
+                                    <h3 className="text-[24px] sm:text-[12px] text-[#100E2C] font-[500]">
                                         Apartments sold
                                     </h3>
                                 </div>
 
-                                <div className="p-[40px] flex flex-col gap-[14px] items-center">
-                                    <Image src={Homes} alt="homes" />
+                                <div className="p-[40px] flex flex-col sm:gap-[4px] gap-[14px] items-center">
+                                    <Image className="sm:w-[20px]" src={Homes} alt="homes" />
 
-                                    <h1 className="text-[50px] text-[#100E2C] font-[700]">125</h1>
+                                    <h1 className="text-[50px] sm:text-[18px] text-[#100E2C] font-[700]">125</h1>
 
-                                    <h3 className="text-[24px] text-[#100E2C] font-[500]">
+                                    <h3 className="text-[24px] sm:text-[12px] text-[#100E2C] font-[500]">
                                         Houses sold
                                     </h3>
                                 </div>
 
-                                <div className="p-[40px] flex flex-col gap-[14px] items-center">
-                                    <Image src={Zavod} alt="Zavod" />
+                                <div className="p-[40px] flex flex-col sm:gap-[4px] gap-[14px] items-center">
+                                    <Image className="sm:w-[20px]" src={Zavod} alt="Zavod" />
 
-                                    <h1 className="text-[50px] text-[#100E2C] font-[700]">120</h1>
+                                    <h1 className="text-[50px] sm:text-[18px] text-[#100E2C] font-[700]">120</h1>
 
-                                    <h3 className="text-[24px] text-[#100E2C] font-[500]">
+                                    <h3 className="text-[24px] sm:text-[12px] text-[#100E2C] font-[500]">
                                         Villas sold
                                     </h3>
                                 </div>
@@ -89,17 +89,17 @@ export default function Home() {
             {/* SECTION-1 ENDED */}
 
             {/* SECTION-2 STARTED */}
-            <section id="section-2">
-                <div className="container pb-[120px]">
-                    <div className="flex items-center gap-[134px] pl-[110px]">
+            <section id="section-2" className="sm:pb-[40px]">
+                <div className="container sm:px-[20px] sm:pb-[40px] pb-[120px]">
+                    <div className="flex sm:flex-col sm:pl-[0px] sm:gap-[40px] items-center gap-[134px] pl-[110px]">
                         <Image src={Expert} className="w-[416px]" alt="Expert" />
 
-                        <div className="w-[526px]">
-                            <h2 className="text-[#100E2C] text-[40px] font-[700] pb-[40px]">
+                        <div className="w-[526px] sm:w-[350px]">
+                            <h2 className="text-[#100E2C] sm:text-[20px] sm:pb-[20px] text-[40px] font-[700] pb-[40px]">
                                 Expert advice for all your real estate needs
                             </h2>
 
-                            <p>
+                            <p className="sm:text-[14px]">
                                 Pretium interdum risus risus facilisis cras pellentesque ipsum
                                 suspendisse venenatis. Morbi posuere semper etiam imperdiet orci
                                 ut. Lacus odio arcu massa porttitor curabitur a in. Faucibus
@@ -112,18 +112,18 @@ export default function Home() {
             {/* SECTION-2 ENDED */}
 
             {/* SECTION-3 STARTED */}
-            <section id="section-3" className="mb-[60px]">
-                <div className="container pl-[110px]">
-                    <h2 className="text-[#100E2C] text-[40px] text-center pb-[24px] font-[700]">
+            <section id="section-3" className="mb-[60px] sm:mb-[20px] sm:px-[20px]">
+                <div className="container sm:pl-[0px] pl-[110px]">
+                    <h2 className="text-[#100E2C] sm:text-[30px] sm:pb-[12px] text-[40px] text-center pb-[24px] font-[700]">
                         Our client’s success is our success.
                     </h2>
 
-                    <p className="text-center pb-[40px]">
+                    <p className="text-center pb-[40px] sm:pb-[20px] sm:text-[14px]">
                         Leo morbi faucibus mattis pharetra tellus velit ultricies duis
                         rhoncus. Porttitor fermentum eu urna eget
                     </p>
 
-                    <div className="flex items-center gap-[24px]">
+                    <div className="flex sm:flex-col items-center gap-[24px]">
                         <div className="p-[40px] items-center w-[342px] text-[#fff] flex flex-col gap-[32px] rounded-[12px] bg-[#100E2C]">
                             <Image src={HomeGroup} alt="home group" />
                             <h3 className="text-[24px] font-[700]">Buy a property</h3>
@@ -171,13 +171,13 @@ export default function Home() {
             {/* SECTION-3 ENDED */}
 
             {/* SECTION-4 STARTED */}
-            <section id="section-4-2" className="mb-[60px] h-[480px]">
-                <div className="container pl-[110px]">
-                    <h2 className="pt-[205px] text-[50px] text-[#fff] font-[700] pb-[4px]">
+            <section id="section-4-2" className="mb-[60px] sm:px-[20px] sm:pb-[110px] sm:pt-[110px] sm:mb-[20px] sm:h-max h-[480px]">
+                <div className="container sm:pl-[0px] pl-[110px]">
+                    <h2 className="pt-[205px] sm:pt-[0px] text-[50px] sm:text-[22px] sm:pb-[20px] text-[#fff] font-[700] pb-[4px]">
                         Discover your featured property
                     </h2>
 
-                    <p className="text-[#fff]">
+                    <p className="text-[#fff] sm:text-[14px]">
                         Leo morbi faucibus mattis pharetra tellus velit ultricies duis
                         rhoncus
                     </p>
@@ -186,55 +186,55 @@ export default function Home() {
             {/* SECTION-4 ENDED */}
 
             {/* SECTION-5 STARTED */}
-            <section id="section-5" className="mb-[60px]">
+            <section id="section-5" className="mb-[60px] sm:px-[20px] sm:mb-[30px]">
                 <div className="container">
-                    <h1 className="pb-[4px] text-center text-[#100E2C] text-[50px] font-[700]">
+                    <h1 className="pb-[4px] sm:text-[30px] text-center text-[#100E2C] text-[50px] font-[700]">
                         Our professional agents
                     </h1>
 
-                    <p className="text-center pb-[40px]">
+                    <p className="text-center sm:text-[12px] sm:pb-[20px] pb-[40px]">
                         Leo morbi faucibus mattis pharetra tellus velit ultricies duis
                         rhoncus
                     </p>
 
                     <div className="flex items-center flex-wrap gap-[24px]">
-                        <div className="flex w-[636px] h-[256px] p-[15px] gap-[20px] rounded-[12px] shadow-lg">
-                            <Image src={PersonOne} alt="person-1" />
+                        <div className="flex sm:w-[400px] sm:h-[150px] w-[636px] h-[256px] p-[15px] gap-[20px] rounded-[12px] shadow-lg">
+                            <Image className="sm:w-[100px]" src={PersonOne} alt="person-1" />
 
                             <div className="flex flex-col">
-                                <h3 className="text-[24px] font-[600] pb-[5px]">
+                                <h3 className="text-[24px] sm:text-[16px] font-[600] pb-[5px]">
                                     Terrell Norman
                                 </h3>
 
-                                <p className="pb-[5px] text-[14px] font-[500] text-[#100E2C]">
+                                <p className="pb-[5px] sm:text-[8px] text-[14px] font-[500] text-[#100E2C]">
                                     Real estate agent
                                 </p>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Office </h3>
+                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Office </h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         (358) 707-4989
                                     </p>
                                 </div>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Mobile</h3>
+                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Mobile</h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         (822) 622-2842
                                     </p>
                                 </div>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Email</h3>
+                                <div className="flex py-[8px] border-b-[1px] sm:border-none border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Email</h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         shrapnull@yahoo.ca
                                     </p>
                                 </div>
 
-                                <div className="flex items-center gap-[16px] pt-[24px]">
+                                <div className="flex sm:hidden items-center gap-[16px] pt-[24px]">
                                     <Image src={IconOne} alt="IconOne" />
                                     <Image src={IconTwo} alt="IconTwo" />
                                     <Image src={IconThree} alt="IconThree" />
@@ -244,43 +244,43 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="flex w-[636px] h-[256px] p-[15px] gap-[20px] rounded-[12px] shadow-lg">
-                            <Image src={PersonTwo} alt="person-1" />
+                        <div className="flex sm:w-[400px] sm:h-[150px] w-[636px] h-[256px] p-[15px] gap-[20px] rounded-[12px] shadow-lg">
+                            <Image className="sm:w-[100px]" src={PersonOne} alt="person-1" />
 
                             <div className="flex flex-col">
-                                <h3 className="text-[24px] font-[600] pb-[5px]">
+                                <h3 className="text-[24px] sm:text-[16px] font-[600] pb-[5px]">
                                     Terrell Norman
                                 </h3>
 
-                                <p className="pb-[5px] text-[14px] font-[500] text-[#100E2C]">
+                                <p className="pb-[5px] sm:text-[8px] text-[14px] font-[500] text-[#100E2C]">
                                     Real estate agent
                                 </p>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Office </h3>
+                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Office </h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         (358) 707-4989
                                     </p>
                                 </div>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Mobile</h3>
+                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Mobile</h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         (822) 622-2842
                                     </p>
                                 </div>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Email</h3>
+                                <div className="flex py-[8px] border-b-[1px] sm:border-none border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Email</h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         shrapnull@yahoo.ca
                                     </p>
                                 </div>
 
-                                <div className="flex items-center gap-[16px] pt-[24px]">
+                                <div className="flex sm:hidden items-center gap-[16px] pt-[24px]">
                                     <Image src={IconOne} alt="IconOne" />
                                     <Image src={IconTwo} alt="IconTwo" />
                                     <Image src={IconThree} alt="IconThree" />
@@ -290,43 +290,43 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="flex w-[636px] h-[256px] p-[15px] gap-[20px] rounded-[12px] shadow-lg">
-                            <Image src={PersonThree} alt="person-1" />
+                        <div className="flex sm:w-[400px] sm:h-[150px] w-[636px] h-[256px] p-[15px] gap-[20px] rounded-[12px] shadow-lg">
+                            <Image className="sm:w-[100px]" src={PersonOne} alt="person-1" />
 
                             <div className="flex flex-col">
-                                <h3 className="text-[24px] font-[600] pb-[5px]">
+                                <h3 className="text-[24px] sm:text-[16px] font-[600] pb-[5px]">
                                     Terrell Norman
                                 </h3>
 
-                                <p className="pb-[5px] text-[14px] font-[500] text-[#100E2C]">
+                                <p className="pb-[5px] sm:text-[8px] text-[14px] font-[500] text-[#100E2C]">
                                     Real estate agent
                                 </p>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Office </h3>
+                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Office </h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         (358) 707-4989
                                     </p>
                                 </div>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Mobile</h3>
+                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Mobile</h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         (822) 622-2842
                                     </p>
                                 </div>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Email</h3>
+                                <div className="flex py-[8px] border-b-[1px] sm:border-none border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Email</h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         shrapnull@yahoo.ca
                                     </p>
                                 </div>
 
-                                <div className="flex items-center gap-[16px] pt-[24px]">
+                                <div className="flex sm:hidden items-center gap-[16px] pt-[24px]">
                                     <Image src={IconOne} alt="IconOne" />
                                     <Image src={IconTwo} alt="IconTwo" />
                                     <Image src={IconThree} alt="IconThree" />
@@ -336,43 +336,43 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="flex w-[636px] h-[256px] p-[15px] gap-[20px] rounded-[12px] shadow-lg">
-                            <Image src={PersonFour} alt="person-1" />
+                        <div className="flex sm:w-[400px] sm:h-[150px] w-[636px] h-[256px] p-[15px] gap-[20px] rounded-[12px] shadow-lg">
+                            <Image className="sm:w-[100px]" src={PersonOne} alt="person-1" />
 
                             <div className="flex flex-col">
-                                <h3 className="text-[24px] font-[600] pb-[5px]">
+                                <h3 className="text-[24px] sm:text-[16px] font-[600] pb-[5px]">
                                     Terrell Norman
                                 </h3>
 
-                                <p className="pb-[5px] text-[14px] font-[500] text-[#100E2C]">
+                                <p className="pb-[5px] sm:text-[8px] text-[14px] font-[500] text-[#100E2C]">
                                     Real estate agent
                                 </p>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Office </h3>
+                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Office </h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         (358) 707-4989
                                     </p>
                                 </div>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Mobile</h3>
+                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Mobile</h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         (822) 622-2842
                                     </p>
                                 </div>
 
-                                <div className="flex py-[8px] border-b-[1px] border-b-[#7A747433] justify-between gap-[200px]">
-                                    <h3 className="text-[14px] font-[600]">Email</h3>
+                                <div className="flex py-[8px] border-b-[1px] sm:border-none border-b-[#7A747433] justify-between ">
+                                    <h3 className="text-[14px] sm:text-[8px] font-[600]">Email</h3>
 
-                                    <p className="text-[14px] font-[600] text-[#7A7474]">
+                                    <p className="text-[14px] sm:text-[8px] font-[600] text-[#7A7474]">
                                         shrapnull@yahoo.ca
                                     </p>
                                 </div>
 
-                                <div className="flex items-center gap-[16px] pt-[24px]">
+                                <div className="flex sm:hidden items-center gap-[16px] pt-[24px]">
                                     <Image src={IconOne} alt="IconOne" />
                                     <Image src={IconTwo} alt="IconTwo" />
                                     <Image src={IconThree} alt="IconThree" />
@@ -387,11 +387,11 @@ export default function Home() {
             {/* SECTION-5 ENDED */}
 
             {/* SECTION-6 STARTED */}
-            <section id="section-6-2" className="py-[60px]">
-                <div className="container pl-[110px]">
-                    <div className="flex items-center gap-[134px]">
-                        <div className="flex flex-col gap-[30px] items-start w-[526px]">
-                            <h2 className="text-[40px] font-[700]">
+            <section id="section-6-2" className="py-[60px] sm:py-[30px] px-[20px]">
+                <div className="container pl-[110px] sm:pl-[0px]">
+                    <div className="flex sm:flex-col sm:gap-[40px] items-center gap-[134px]">
+                        <div className="flex flex-col gap-[30px] sm:w-[350px] items-start w-[526px]">
+                            <h2 className="text-[40px] sm:text-[20px] font-[700]">
                                 Real estate, personalized for you
                             </h2>
 
@@ -402,7 +402,7 @@ export default function Home() {
                                 ipsum lacinia aenean nec.
                             </p>
 
-                            <button className="text-[20px] font-[500] text-[#fff] bg-[#0057FF] hover:bg-[#0055ffdf] duration-200 transition-all active:bg-[#0057FF] rounded-[6px] w-[200px] h-[50px]">
+                            <button className="text-[20px] sm:text-[14px] font-[500] text-[#fff] bg-[#0057FF] hover:bg-[#0055ffdf] duration-200 transition-all active:bg-[#0057FF] sm:w-[140px] sm:h-[35px] rounded-[6px] w-[200px] h-[50px]">
                                 Learn more
                             </button>
                         </div>
@@ -414,13 +414,13 @@ export default function Home() {
             {/* SECTION-6 ENDED */}
 
             {/* SECTION-7 STARTED */}
-            <section id="section-7" className="py-[60px]">
+            <section id="section-7" className="py-[60px] sm:py-[30px] sm:px-[20px]">
                 <div className="container">
-                    <h2 className="text-center text-[#100E2C] text-[50px] font-[700] pb-[14px]">
+                    <h2 className="text-center sm:text-[25px] text-[#100E2C] text-[50px] font-[700] pb-[14px]">
                         Blog news
                     </h2>
 
-                    <p className="pb-[40px] text-center">
+                    <p className="pb-[40px] sm:pb-[20px] text-center">
                         Leo morbi faucibus mattis pharetra tellus velit ultricies duis
                         rhoncus
                     </p>
