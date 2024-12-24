@@ -32,5 +32,9 @@ import Elevator from "./elevator.svg";
 import Parking from "./parking.svg";
 import WiFi from "./wifi.svg";
 import Tv from "./tv.svg";
+import Education from "./education.svg";
+import Health from "./health.svg";
+import Food from "./food.svg";
+import Culture from "./culture.svg";
 
-export {Logo,Ava,PhoneIcon,Filter,Instagram,Facebook,Twitter,Telegram,Bathroom,Bedroom,Area,Garage,Apartment,Homes,HomeHeart,Zavod, HomeGroup,HomeGroup2,BankGroup,IconOne,IconTwo,IconThree,IconFour,IconFive, AvaGet, TotalArea,Bedrooms,Bathrooms,Floor,Construction,Elevator,Parking,WiFi,Tv}
+export {Logo,Ava,PhoneIcon,Filter,Instagram,Facebook,Twitter,Telegram,Bathroom,Bedroom,Area,Garage,Apartment,Homes,HomeHeart,Zavod, HomeGroup,HomeGroup2,BankGroup,IconOne,IconTwo,IconThree,IconFour,IconFive, AvaGet, TotalArea,Bedrooms,Bathrooms,Floor,Construction,Elevator,Parking,WiFi,Tv, Education, Food, Culture, Health}
